@@ -15,7 +15,7 @@ import plotly.express as px
 # NOTE: For local testing, you will need to replace "" with your actual Gemini API key, 
 # or set it as an environment variable (e.g., GEMINI_API_KEY) and access it via os.environ.
 # For now, we will leave it blank for Canvas compatibility, and use standard requests.
-API_KEY = "AIzaSyBdAcJ5aJ0Ck2ep-Gpd5F0b_0sn-ehZPfM" 
+API_KEY = "your-gemini-api" 
 API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key={API_KEY}"
 
 # --- 0. STREAMLIT CONFIGURATION (Vibrant Dark Mode Theme) ---
